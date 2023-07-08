@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background-color: #242526;
+  color: white;
+}
+
+.user___messages{
+  background-color: #424ee2;
+  max-width: 50%;
+  font-size: medium;
+}
+
+.Ai___messages{
+  background-color: #3e4042;
+  max-width: 50%;
+  font-size: medium;
+
+}
+.Ai___waiting{
+  background-color: #3e4042;
+  font-size: medium;
+  width: 80px;
+
+
+}
+.input___message{
+  color: white;
+  background-color: #3e4042;
+  padding: 8px;
+  border: 0;
+}
+.messages___container{
+  height: 80vh;
+  overflow: auto;
+  margin-bottom: 30px;
+
+}
+
+.send___button{
+  border: 0;
+  background: #3e4042;
+  margin-left: -35px;
+}
+@media screen and (max-width: 768px){
+  .user___messages{
+    max-width: 100%;
+  }
+  
+  .Ai___messages{
+    max-width: 100%;  
+  }
+  
+
+}
